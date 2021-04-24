@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.kang</groupId>
-    <artifactId>manage</artifactId>
+    <artifactId>manage-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>manage</name>
+    <name>manage-parent</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
