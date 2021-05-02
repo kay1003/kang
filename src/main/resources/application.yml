@@ -1,2 +1,19 @@
+#端口号
 server:
   port: 9001
+  tomcat:
+    connection-timeout: 10000
+#mybatisPlus
+mybatis-plus:
+  mapper-locations: classpath:com/kang/manage/mapper/*Mapper.xml
+  type-aliases-package: com.kang.manage.domain
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://18.179.38.109:3306/manage?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowMultiQueries=true&serverTimezone=GMT%2B8
+    username: root
+    password: kang
+  profiles:
+    active: dev
